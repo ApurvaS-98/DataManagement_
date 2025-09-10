@@ -1,0 +1,7 @@
+Optimizing data warehouse storage
+I found it interesting how Auto Optimize reduces duplicate ETL work by centralizing layout optimizations, saving both cost and engineering effort. The idea of “just in time” optimization instead of blind periodic runs is a smart balance between efficiency and performance. Also, the use of metadata optimization in Iceberg to enable faster point queries and file scanning shows how small design tweaks can yield massive gains at Netflix’s scale.
+
+Keystone Real-time Stream Processing Platform
+What stood out to me is how Keystone balances massive scale with diverse use cases, from stateless GB/sec jobs to stateful ones holding terabytes of data. I also found it interesting that the platform is built around tuneable tradeoffs (latency vs. duplicates, ordering vs. randomness), letting users declare what matters most for their workloads. Finally, the principle of treating failure as a first-class citizen shows Netflix’s cloud-native maturity, designing resiliency and self-healing into the core of the system
+
+
